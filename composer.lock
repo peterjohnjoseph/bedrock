@@ -1,11 +1,37 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "07dd85371456253ffba1c0ec34eba9fb",
+    "hash": "cedb7c34a7321492906ea3c414c4ff70",
     "packages": [
+        {
+            "name": "automattic/jetpack",
+            "version": "3.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Automattic/jetpack.git",
+                "reference": "07bf09d986c3e8d35f583965c60aaaebef1722d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Automattic/jetpack/zipball/07bf09d986c3e8d35f583965c60aaaebef1722d5",
+                "reference": "07bf09d986c3e8d35f583965c60aaaebef1722d5",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Jetpack supercharges your self‑hosted WordPress site with the awesome cloud power of WordPress.com",
+            "homepage": "http://jetpack.me/",
+            "time": "2015-05-06 16:12:09"
+        },
         {
             "name": "composer/installers",
             "version": "v1.0.21",
@@ -233,6 +259,26 @@
                 "environment"
             ],
             "time": "2014-10-16 14:50:21"
+        },
+        {
+            "name": "wpackagist-plugin/w3-total-cache",
+            "version": "0.9.4.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/w3-total-cache/",
+                "reference": "tags/0.9.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.4.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/w3-total-cache/"
         }
     ],
     "packages-dev": [],
